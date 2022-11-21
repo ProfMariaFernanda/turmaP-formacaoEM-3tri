@@ -1,5 +1,6 @@
 body{
     background-color: azure;
+    font-family: 'Noto Sans', sans-serif;
 }
 header{
     background-color: burlywood;
@@ -81,4 +82,15 @@ nav ul{
 }
 .testeposition2{
     border: 3px dotted red;
+}
+.Jesuita {
+    display: inline-block;
+    border: 5px dotted blueviolet;
+    margin-top: 30px;
+}
+.Marga {
+    display: inline-block;
+    border: 10px solid blueviolet;
+    margin-top: 30px;
+    border-radius: 15px;
 }
