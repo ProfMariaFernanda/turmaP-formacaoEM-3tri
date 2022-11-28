@@ -31,10 +31,35 @@ h1{
 
 nav li {
     display: inline;
-    margin-left: 50px;
+    margin-left: 200px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    background-color: beige;
+    padding: 2px;
+}
+
+nav a:hover{
+    font-size: 30px;
+    color: goldenrod;
+    
+}
+
+nav a:active{
+    font-size: 25px;
+    color: black;
+}
+
+
+
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -69,19 +94,15 @@ nav ul{
 }
 
 .testeposition1{
-    position: absolute;
-    top: 1000px;
-    bottom: ;
-    left: ;
-    right: 400px ;
-
-    border: 5px solid rebeccapurple;
+    position: static;
     width: 40%;
     height: 300px;
+    text-align: center;
+    margin-left: 400px;
     
 }
 .testeposition2{
-    border: 3px dotted red;
+  
 }
 .Jesuita {
     display: inline-block;
@@ -93,4 +114,25 @@ nav ul{
     border: 10px solid blueviolet;
     margin-top: 30px;
     border-radius: 15px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 8px;
+    font-weight: bold;
+    border: 2px dashed darkblue;
+    height: 30px;
+    background-image: url(estrelas.png);
+}
+.itens:last-child{
+    color: blue;
+}
+.itens:first-letter{
+    font-weight: bold;
+}
+.itens:before{
+    content: "✰";
+}
+.itens:after{
+    content: "✰";
 }
